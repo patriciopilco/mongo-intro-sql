@@ -1,7 +1,6 @@
 # mongo-intro-sql
 
 ## Edit Config
-***
 ```
 root = true
 
@@ -42,3 +41,19 @@ services:
 docker-compose up -d mongodb
 ```
 
+## MongoSh
+
+1. Conexión al contenedor
+```sh
+$ docker-compose exec mongodb bash
+```
+2. Conexión con mongosh
+```sh
+/# mongosh "mongodb://root:root@localhost:27017/?authMechanism=DEFAULT"
+```
+
+* Instrucciones 
+```sh
+show dbs
+show collections
+```
