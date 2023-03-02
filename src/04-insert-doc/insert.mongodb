@@ -1,0 +1,6 @@
+use("store")
+
+db.products.insertOne({
+    name: "Product2",
+    price: "20"
+})
