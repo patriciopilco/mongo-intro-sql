@@ -2,15 +2,25 @@ use("store")
 
 db.products.insertMany([
     {
-        name:"Product3",
-        price:"30"
+        name:"Product6",
+        price:"60",
+        type: "INF"
     },
-     {
-        name:"Product4",
-        price:"40"
+        {
+        name:"Product7",
+        price:"70",
+        type: "INF"
+    },
+        {
+        name:"Product8",
+        price:"80",
+        type: "INF"
+    },
+        {
+        name:"Product9",
+        price:"90",
+        type: "INF"
     }
-], {
-    ordered: false  // si existe un error de duplicidad continua el insert y no bloquea
-})
+])
 
 db.products.find()

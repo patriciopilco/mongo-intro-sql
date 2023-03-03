@@ -1,6 +1,6 @@
 use("store")
 
 db.products.insertOne({
-    name: "Product2",
-    price: "20"
+    name: "Product5",
+    price: 2000
 })

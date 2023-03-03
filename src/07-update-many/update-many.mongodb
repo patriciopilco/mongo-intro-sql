@@ -1,0 +1,10 @@
+use("store")
+
+db.products.updateMany(
+    {type:'INF'},
+    {
+        $set: {
+            price: '$50'
+        }
+    }
+    )

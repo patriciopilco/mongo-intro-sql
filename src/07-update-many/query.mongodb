@@ -1,0 +1,4 @@
+use("store")
+
+db.products.find().count()
+db.products.find({type:'INF'}).count()
